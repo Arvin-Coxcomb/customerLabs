@@ -1,0 +1,90 @@
+.container{
+    width : 38vw;
+    height : 90vh;
+    position:absolute;
+}
+.close{
+    position:absolute;
+    right : 0;
+    top : 0;
+    padding : 5px 10px;
+    color : white;
+    background-color: red;
+    border : none;
+    border-radius: 4px;
+}
+.sub-container{
+    border : 1px solid lightblue;
+    position: relative;
+    height : 85%;
+    width : 50%;
+    margin : 10px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s-name{
+    width : 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin : 0 0 3rem 0;
+}
+.s-name input{
+    margin : 10px;
+    padding : 8px 5px;
+    outline : none;
+    font-size : 16px;
+}
+.popup-mid{
+    width : 100%;
+    text-align: center;
+    min-height : 0px;
+    max-height : 100px;
+    overflow-y: scroll;
+}
+.s-select{
+    width : 50%;
+    height : 30px;
+    border-radius : 4px;
+    margin : 5px 0;
+    border : 3px solid rgb(173, 169, 169);
+
+}
+.s-remove{
+    margin : 0 0 0 5px;
+}
+.s-remove button{
+    width : 10%;
+    height : 30px;
+    outline : none;
+    background-color: aquamarine;
+    border: none;
+    border-radius : 5px;
+    color : green;
+}
+#select{
+    border : 3px solid rgb(173, 169, 169);
+    width :100%;
+    font-size:16px;
+    padding : 10px 20px;
+    outline : none;
+    margin : 2rem 0 0 0;
+    border-radius : 5px;
+}
+.sub-container a{
+    color : lightseagreen;
+    align-self: flex-start;
+    margin : 10px 0;
+}
+.save{
+    padding : 10px 20px;
+    border : none;
+    background-color: lightseagreen;
+    color : white;
+    font-size: 14px;
+    border-radius : 5px;
+    align-self: flex-start;
+    margin : 2.5rem 0;
+}
